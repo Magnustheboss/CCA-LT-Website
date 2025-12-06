@@ -364,6 +364,22 @@ export default function TrialsRegistry() {
         </div>
       </section>
 
+      {/* Research Group Section */}
+      <section className="bg-gradient-to-r from-blue-50 to-teal-50 border-t border-gray-200 py-12">
+        <div className="container max-w-4xl">
+          <div className="bg-white rounded-lg border border-gray-200 p-8">
+            <h2 className="text-3xl font-bold text-foreground mb-4">Transplant Oncology Research Group</h2>
+            <p className="text-secondary leading-relaxed mb-6">
+              This registry is maintained by the Transplant Oncology Research Group at Oslo University Hospital, which leads multiple clinical trials for liver transplantation in cholangiocarcinoma.
+            </p>
+            <a href="https://www.med.uio.no/klinmed/english/research/groups/transplant-oncology/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90">
+              Visit Research Group Website
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Navigation */}
       <section className="bg-white border-t border-gray-200 py-12">
         <div className="container max-w-4xl">
