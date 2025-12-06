@@ -1,16 +1,24 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
+import Home from "@/pages/Home";
+import PerihilarCCA from "@/pages/PerihilarCCA";
+import IntrahepaticCCA from "@/pages/IntrahepaticCCA";
+import SureLT from "@/pages/SureLT";
+import FutureDirections from "@/pages/FutureDirections";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
 
 
 function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/perihilar"} component={PerihilarCCA} />
+      <Route path={"/intrahepatic"} component={IntrahepaticCCA} />
+      <Route path={"/sure-lt"} component={SureLT} />
+      <Route path={"/future"} component={FutureDirections} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
@@ -18,17 +26,11 @@ function Router() {
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
 function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider
         defaultTheme="light"
-        // switchable
       >
         <TooltipProvider>
           <Toaster />
