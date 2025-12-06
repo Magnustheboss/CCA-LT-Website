@@ -174,6 +174,13 @@ export default function Home() {
               </p>
               <span className="text-accent font-semibold">Learn more →</span>
             </Link>
+            <Link href="/trials-registry" className="medical-card hover:shadow-lg cursor-pointer">
+              <h3 className="text-2xl font-bold text-foreground mb-3">Clinical Trials Registry</h3>
+              <p className="text-secondary mb-4">
+                Active clinical trials recruiting patients with direct links to ClinicalTrials.gov for enrollment information.
+              </p>
+              <span className="text-accent font-semibold">Learn more →</span>
+            </Link>
             <Link href="/future" className="medical-card hover:shadow-lg cursor-pointer">
               <h3 className="text-2xl font-bold text-foreground mb-3">Future Directions</h3>
               <p className="text-secondary mb-4">

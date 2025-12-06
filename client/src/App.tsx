@@ -10,6 +10,7 @@ import FutureDirections from "@/pages/FutureDirections";
 import References from "@/pages/References";
 import SearchResults from "@/pages/SearchResults";
 import OsloTrials from "@/pages/OsloTrials";
+import TrialsRegistry from "@/pages/TrialsRegistry";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -27,6 +28,7 @@ function Router() {
       <Route path={"/references"} component={References} />
       <Route path="/search" component={SearchResults} />
       <Route path="/oslo-trials" component={OsloTrials} />
+      <Route path="/trials-registry" component={TrialsRegistry} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

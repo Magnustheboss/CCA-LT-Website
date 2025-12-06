@@ -267,6 +267,44 @@ export const searchIndex: SearchResult[] = [
     category: "Clinical Trials",
   },
 
+  // Clinical Trials Registry
+  {
+    id: "trials-1",
+    title: "Clinical Trials Registry",
+    excerpt: "Comprehensive registry of active clinical trials recruiting patients for liver transplantation in cholangiocarcinoma with direct links to ClinicalTrials.gov.",
+    page: "Clinical Trials Registry",
+    pageTitle: "Clinical Trials Registry",
+    url: "/trials-registry",
+    category: "Clinical Trials",
+  },
+  {
+    id: "trials-2",
+    title: "iCCA Trials",
+    excerpt: "Five active trials recruiting patients with unresectable intrahepatic cholangiocarcinoma, including TESLA 1, iCOLA, LIRICA, and trials from Toronto and Rutgers.",
+    page: "Clinical Trials Registry",
+    pageTitle: "Clinical Trials Registry",
+    url: "/trials-registry",
+    category: "Clinical Trials",
+  },
+  {
+    id: "trials-3",
+    title: "pCCA Trials",
+    excerpt: "Five active trials recruiting patients with non-resectable perihilar cholangiocarcinoma, including pCOLA, TESLA 2, SURE-LT, and trials from Spain and Italy.",
+    page: "Clinical Trials Registry",
+    pageTitle: "Clinical Trials Registry",
+    url: "/trials-registry",
+    category: "Clinical Trials",
+  },
+  {
+    id: "trials-4",
+    title: "ClinicalTrials.gov Links",
+    excerpt: "Direct links to all trials on ClinicalTrials.gov with NCT numbers for easy access to detailed trial information and enrollment procedures.",
+    page: "Clinical Trials Registry",
+    pageTitle: "Clinical Trials Registry",
+    url: "/trials-registry",
+    category: "Clinical Trials",
+  },
+
   // Future Directions
   {
     id: "future-1",
