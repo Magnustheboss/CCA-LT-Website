@@ -229,6 +229,44 @@ export const searchIndex: SearchResult[] = [
     category: "Authors",
   },
 
+  // Oslo Trials
+  {
+    id: "oslo-1",
+    title: "Oslo Trials Program",
+    excerpt: "A comprehensive transplant-oncology program establishing standardized, scalable liver transplantation protocols for biliary tract cancers through three coordinated clinical trials.",
+    page: "Oslo Trials",
+    pageTitle: "The Oslo Trials: TESLA 1, TESLA 2, and SURE-LT",
+    url: "/oslo-trials",
+    category: "Clinical Trials",
+  },
+  {
+    id: "oslo-2",
+    title: "TESLA 1 Trial",
+    excerpt: "Intrahepatic cholangiocarcinoma trial using SYS-TARE framework with goal of 50% 5-year survival through liver transplantation.",
+    page: "Oslo Trials",
+    pageTitle: "The Oslo Trials: TESLA 1, TESLA 2, and SURE-LT",
+    url: "/oslo-trials",
+    category: "Clinical Trials",
+  },
+  {
+    id: "oslo-3",
+    title: "TESLA 2 Trial",
+    excerpt: "Perihilar cholangiocarcinoma trial using modified Mayo protocol with stereotactic body radiation therapy instead of brachytherapy.",
+    page: "Oslo Trials",
+    pageTitle: "The Oslo Trials: TESLA 1, TESLA 2, and SURE-LT",
+    url: "/oslo-trials",
+    category: "Clinical Trials",
+  },
+  {
+    id: "oslo-4",
+    title: "SURE-LT Trial",
+    excerpt: "Salvage Unresectable Resectable Explant Liver Transplantation for locally advanced pCCA with vascular involvement.",
+    page: "Oslo Trials",
+    pageTitle: "The Oslo Trials: TESLA 1, TESLA 2, and SURE-LT",
+    url: "/oslo-trials",
+    category: "Clinical Trials",
+  },
+
   // Future Directions
   {
     id: "future-1",

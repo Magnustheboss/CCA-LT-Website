@@ -160,6 +160,13 @@ export default function Home() {
               </p>
               <span className="text-accent font-semibold">Learn more →</span>
             </Link>
+            <Link href="/oslo-trials" className="medical-card hover:shadow-lg cursor-pointer">
+              <h3 className="text-2xl font-bold text-foreground mb-3">Oslo Trials</h3>
+              <p className="text-secondary mb-4">
+                Comprehensive overview of TESLA 1, TESLA 2, and SURE-LT trials pioneering transplant oncology for CCA.
+              </p>
+              <span className="text-accent font-semibold">Learn more →</span>
+            </Link>
             <Link href="/sure-lt" className="medical-card hover:shadow-lg cursor-pointer">
               <h3 className="text-2xl font-bold text-foreground mb-3">SURE-LT Protocol</h3>
               <p className="text-secondary mb-4">

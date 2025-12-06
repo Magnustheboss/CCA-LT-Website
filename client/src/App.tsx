@@ -9,6 +9,7 @@ import SureLT from "@/pages/SureLT";
 import FutureDirections from "@/pages/FutureDirections";
 import References from "@/pages/References";
 import SearchResults from "@/pages/SearchResults";
+import OsloTrials from "@/pages/OsloTrials";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -25,6 +26,7 @@ function Router() {
       <Route path={"/future"} component={FutureDirections} />
       <Route path={"/references"} component={References} />
       <Route path="/search" component={SearchResults} />
+      <Route path="/oslo-trials" component={OsloTrials} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
