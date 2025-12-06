@@ -16,6 +16,7 @@ export default function AboutOslo() {
               <Link href="/intrahepatic" className="nav-link">Intrahepatic CCA</Link>
               <Link href="/sure-lt" className="nav-link">SURE-LT</Link>
               <Link href="/future" className="nav-link">Future</Link>
+              <Link href="/about" className="nav-link active">About</Link>
             </div>
             <div className="w-full md:w-auto">
               <SearchBar />
@@ -167,6 +168,76 @@ export default function AboutOslo() {
             <p className="text-secondary leading-relaxed">
               We actively engage with the transplant oncology community through conference presentations, peer-reviewed publications, and educational initiatives to disseminate best practices and advance the field globally.
             </p>
+          </div>
+
+          <div className="section-divider"></div>
+
+          {/* Key Publications */}
+          <h2 className="text-3xl font-bold text-foreground mb-8 mt-12">Key Publications</h2>
+          
+          <div className="space-y-6 mb-12">
+            <div className="bg-white rounded-lg border border-gray-200 p-8">
+              <h3 className="text-xl font-bold text-foreground mb-2">TESLA 1 Trial: Early Results</h3>
+              <p className="text-accent font-semibold mb-3">Yaqub, S., Smedman, T.M., Dueland, S., et al.</p>
+              <p className="text-secondary leading-relaxed mb-4">
+                Liver transplantation for locally advanced non-resectable intrahepatic cholangiocarcinoma treated with neoadjuvant therapy: Early results from the TESLA trial.
+              </p>
+              <p className="text-secondary text-sm mb-4">
+                <span className="font-semibold">British Journal of Surgery</span> (2025)
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent text-white px-4 py-2 rounded-lg text-sm hover:bg-opacity-90">
+                  PubMed
+                  <span>→</span>
+                </a>
+                <a href="https://doi.org/10.1093/bjs/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-gray-200 text-foreground px-4 py-2 rounded-lg text-sm hover:bg-gray-300">
+                  DOI
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg border border-gray-200 p-8">
+              <h3 className="text-xl font-bold text-foreground mb-2">SURE-LT Protocol: Surgical Innovation</h3>
+              <p className="text-accent font-semibold mb-3">Smedman, T.M., Yaqub, S., Dueland, S., et al.</p>
+              <p className="text-secondary leading-relaxed mb-4">
+                En bloc resection of the liver and pancreas with a non-touch technique followed by liver transplantation to improve overall survival in patients with non-resectable hilar cholangiocarcinoma beyond Mayo Clinic transplant criteria.
+              </p>
+              <p className="text-secondary text-sm mb-4">
+                <span className="font-semibold">Transplantation</span> (2024-2025)
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent text-white px-4 py-2 rounded-lg text-sm hover:bg-opacity-90">
+                  PubMed
+                  <span>→</span>
+                </a>
+                <a href="https://doi.org/10.1097/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-gray-200 text-foreground px-4 py-2 rounded-lg text-sm hover:bg-gray-300">
+                  DOI
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg border border-gray-200 p-8">
+              <h3 className="text-xl font-bold text-foreground mb-2">Landmark Study: Lunsford et al.</h3>
+              <p className="text-accent font-semibold mb-3">Lunsford, K.E., Javle, M., Heyne, K., et al.</p>
+              <p className="text-secondary leading-relaxed mb-4">
+                Liver transplantation for locally advanced intrahepatic cholangiocarcinoma treated with neoadjuvant therapy: A prospective case series.
+              </p>
+              <p className="text-secondary text-sm mb-4">
+                <span className="font-semibold">The Lancet Gastroenterology & Hepatology</span> 3, 496-507 (2018)
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <a href="https://pubmed.ncbi.nlm.nih.gov/29885838/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent text-white px-4 py-2 rounded-lg text-sm hover:bg-opacity-90">
+                  PubMed
+                  <span>→</span>
+                </a>
+                <a href="https://doi.org/10.1016/S2468-1253(18)30077-0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-gray-200 text-foreground px-4 py-2 rounded-lg text-sm hover:bg-gray-300">
+                  DOI
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Contact & Collaboration */}

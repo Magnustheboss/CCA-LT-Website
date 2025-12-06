@@ -480,6 +480,33 @@ export const searchIndex: SearchResult[] = [
     url: "/about",
     category: "Mission",
   },
+  {
+    id: "about-5",
+    title: "TESLA 1 Trial Publication",
+    excerpt: "Yaqub et al. Liver transplantation for locally advanced non-resectable intrahepatic cholangiocarcinoma treated with neoadjuvant therapy: Early results from the TESLA trial. British Journal of Surgery (2025).",
+    page: "About",
+    pageTitle: "About the Oslo Group",
+    url: "/about",
+    category: "Publications",
+  },
+  {
+    id: "about-6",
+    title: "SURE-LT Protocol Publication",
+    excerpt: "Smedman et al. En bloc resection of the liver and pancreas with a non-touch technique followed by liver transplantation for non-resectable hilar cholangiocarcinoma. Transplantation (2024-2025).",
+    page: "About",
+    pageTitle: "About the Oslo Group",
+    url: "/about",
+    category: "Publications",
+  },
+  {
+    id: "about-7",
+    title: "Lunsford Landmark Study",
+    excerpt: "Lunsford et al. Liver transplantation for locally advanced intrahepatic cholangiocarcinoma treated with neoadjuvant therapy: A prospective case series. The Lancet Gastroenterology & Hepatology 3, 496-507 (2018).",
+    page: "About",
+    pageTitle: "About the Oslo Group",
+    url: "/about",
+    category: "Publications",
+  },
 ];
 
 export function searchContent(query: string): SearchResult[] {
