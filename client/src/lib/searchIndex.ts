@@ -443,6 +443,43 @@ export const searchIndex: SearchResult[] = [
     url: "/references",
     category: "Molecular",
   },
+  // About Oslo Group
+  {
+    id: "about-1",
+    title: "Transplant Oncology Group",
+    excerpt: "The Transplant Oncology Group at Oslo University Hospital leads research and clinical innovation in transplant-based treatment for advanced cholangiocarcinoma.",
+    page: "About",
+    pageTitle: "About the Oslo Group",
+    url: "/about",
+    category: "Institution",
+  },
+  {
+    id: "about-2",
+    title: "Tor Magnus Smedman",
+    excerpt: "Dr. Smedman leads the Transplant Oncology Group as Principal Investigator for TESLA 1, TESLA 2, and SURE-LT trials.",
+    page: "About",
+    pageTitle: "About the Oslo Group",
+    url: "/about",
+    category: "Team Members",
+  },
+  {
+    id: "about-3",
+    title: "Sheraz Yaqub",
+    excerpt: "Dr. Yaqub is a hepatobiliary surgeon and co-investigator leading clinical implementation of transplant oncology protocols.",
+    page: "About",
+    pageTitle: "About the Oslo Group",
+    url: "/about",
+    category: "Team Members",
+  },
+  {
+    id: "about-4",
+    title: "Research Mission",
+    excerpt: "The group's mission is to establish transplant oncology as a curative treatment paradigm for carefully selected patients with non-resectable cholangiocarcinoma.",
+    page: "About",
+    pageTitle: "About the Oslo Group",
+    url: "/about",
+    category: "Mission",
+  },
 ];
 
 export function searchContent(query: string): SearchResult[] {
@@ -480,3 +517,5 @@ export function getSearchSuggestions(query: string): string[] {
 
   return Array.from(suggestions).slice(0, 5);
 }
+
+// Note: About Oslo Group entries were added to searchIndex array above

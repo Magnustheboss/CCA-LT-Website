@@ -16,6 +16,7 @@ export default function Home() {
               <Link href="/intrahepatic" className="nav-link">Intrahepatic CCA</Link>
               <Link href="/sure-lt" className="nav-link">SURE-LT</Link>
               <Link href="/future" className="nav-link">Future</Link>
+              <Link href="/about" className="nav-link">About</Link>
             </div>
             <SearchBar />
           </div>
@@ -192,6 +193,13 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-foreground mb-3">References</h3>
               <p className="text-secondary mb-4">
                 Comprehensive bibliography of all citations organized by topic for easy reference and further reading.
+              </p>
+              <span className="text-accent font-semibold">Learn more →</span>
+            </Link>
+            <Link href="/about" className="medical-card hover:shadow-lg cursor-pointer">
+              <h3 className="text-2xl font-bold text-foreground mb-3">About the Oslo Group</h3>
+              <p className="text-secondary mb-4">
+                Learn about the Transplant Oncology Group's research mission, team members, and collaborative network.
               </p>
               <span className="text-accent font-semibold">Learn more →</span>
             </Link>
