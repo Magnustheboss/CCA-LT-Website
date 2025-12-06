@@ -227,3 +227,57 @@
 .nav-link.active {
   @apply text-accent border-b-2 border-accent;
 }
+
+/* Mobile Navigation Responsive Styles */
+@media (max-width: 768px) {
+  .nav-link {
+    @apply px-2 py-1 text-sm;
+  }
+}
+
+/* Mobile-friendly text sizing */
+@media (max-width: 640px) {
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+
+  .text-5xl {
+    @apply text-3xl;
+  }
+
+  .text-4xl {
+    @apply text-2xl;
+  }
+
+  .text-xl {
+    @apply text-base;
+  }
+
+  .text-lg {
+    @apply text-base;
+  }
+
+  .gap-8 {
+    @apply gap-4;
+  }
+
+  .py-16 {
+    @apply py-8;
+  }
+
+  .mb-12 {
+    @apply mb-6;
+  }
+
+  .mb-8 {
+    @apply mb-4;
+  }
+}

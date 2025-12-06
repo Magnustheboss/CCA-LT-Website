@@ -7,15 +7,15 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       {/* Navigation */}
       <nav className="sticky top-0 bg-white border-b border-gray-200 shadow-sm z-50">
-        <div className="container flex items-center justify-between py-4">
+        <div className="container flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0 py-4">
           <h1 className="text-2xl font-bold text-foreground">CCA-LT</h1>
-          <div className="flex gap-6 items-center">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6 items-start md:items-center w-full md:w-auto">
             <div className="flex gap-8">
               <Link href="/" className="nav-link active">Home</Link>
               <Link href="/perihilar" className="nav-link">Perihilar CCA</Link>
               <Link href="/intrahepatic" className="nav-link">Intrahepatic CCA</Link>
-              <Link href="/sure-lt" className="nav-link">SURE-LT Protocol</Link>
-              <Link href="/future" className="nav-link">Future Directions</Link>
+              <Link href="/sure-lt" className="nav-link">SURE-LT</Link>
+              <Link href="/future" className="nav-link">Future</Link>
             </div>
             <SearchBar />
           </div>
