@@ -404,8 +404,11 @@ export default function TrialsRegistry() {
             </div>
           </div>
           <div className="border-t border-gray-200 pt-8">
-            <p className="text-secondary text-sm text-center">
+            <p className="text-secondary text-sm text-center mb-3">
               © 2025 Liver Transplantation for Cholangiocarcinoma. Medical information for educational purposes.
+            </p>
+            <p className="text-secondary text-sm text-center">
+              Website created by Tor Magnus Smedman, MD PhD, Transplant Oncology Group, Oslo University Hospital
             </p>
           </div>
         </div>
