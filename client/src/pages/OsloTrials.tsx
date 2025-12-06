@@ -84,6 +84,36 @@ export default function OsloTrials() {
         </div>
       </section>
 
+      {/* Landmark Evidence Section */}
+      <section className="bg-gradient-to-r from-green-50 to-teal-50 border-t border-gray-200 py-16">
+        <div className="container max-w-4xl">
+          <h2 className="text-3xl font-bold text-foreground mb-8">Landmark Evidence: Building on the Lunsford Trial</h2>
+          <div className="bg-white rounded-lg border border-gray-200 p-8">
+            <h3 className="text-2xl font-bold text-foreground mb-4">The Lunsford Trial (2018)</h3>
+            <p className="text-secondary leading-relaxed mb-4">
+              The Oslo trials build upon the landmark Lunsford et al. 2018 prospective case series from Houston Methodist, which demonstrated feasibility of liver transplantation for locally advanced iCCA with neoadjuvant therapy response.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+              <div className="bg-blue-50 rounded p-4 border-l-4 border-accent">
+                <p className="text-secondary font-semibold mb-2">1-Year Survival</p>
+                <p className="text-2xl font-bold text-foreground">83.3%</p>
+              </div>
+              <div className="bg-blue-50 rounded p-4 border-l-4 border-accent">
+                <p className="text-secondary font-semibold mb-2">RFS at 1 Year</p>
+                <p className="text-2xl font-bold text-foreground">50%</p>
+              </div>
+              <div className="bg-blue-50 rounded p-4 border-l-4 border-accent">
+                <p className="text-secondary font-semibold mb-2">Periop Mortality</p>
+                <p className="text-2xl font-bold text-foreground">0%</p>
+              </div>
+            </div>
+            <p className="text-secondary text-sm italic">
+              Lunsford KE, et al. Lancet Gastroenterology & Hepatology. 2018;3(5):337-348.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Trials Comparison */}
       <section className="bg-white border-t border-gray-200 py-16">
         <div className="container max-w-4xl">

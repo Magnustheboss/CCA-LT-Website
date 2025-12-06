@@ -155,6 +155,23 @@ export default function IntrahepaticCCA() {
                   Yaqub S, et al. British Journal of Surgery. 2025;112(3):znaf054.
                 </p>
               </div>
+              <div className="medical-card bg-green-50 border-l-4 border-accent">
+                <h3 className="text-xl font-bold text-foreground mb-2">Lunsford Trial - Landmark Study (2018)</h3>
+                <p className="text-secondary mb-3">
+                  Prospective case series from Houston Methodist establishing the efficacy of liver transplantation for locally advanced iCCA with neoadjuvant therapy response.
+                </p>
+                <p className="text-secondary font-semibold mb-2">Key Results (n=6 transplanted):</p>
+                <ul className="text-secondary text-sm space-y-1 mb-3">
+                  <li>1-year overall survival: 83.3% (5 of 6 patients)</li>
+                  <li>Recurrence-free survival at 1 year: 50%</li>
+                  <li>Median follow-up: 36 months (range 25-51)</li>
+                  <li>Perioperative mortality: 0%</li>
+                  <li>Recurrent disease: 50% (median 7.6 months)</li>
+                </ul>
+                <p className="text-secondary text-xs italic">
+                  Lunsford KE, et al. Lancet Gastroenterology & Hepatology. 2018;3(5):337-348.
+                </p>
+              </div>
               <div className="medical-card">
                 <h3 className="text-xl font-bold text-foreground mb-2">SYS-TARE Framework</h3>
                 <p className="text-secondary">
