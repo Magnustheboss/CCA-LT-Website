@@ -149,6 +149,13 @@ export default function Home() {
               </p>
               <span className="text-accent font-semibold">Learn more →</span>
             </Link>
+            <Link href="/outcomes" className="medical-card hover:shadow-lg cursor-pointer">
+              <h3 className="text-2xl font-bold text-foreground mb-3">Clinical Outcomes</h3>
+              <p className="text-secondary mb-4">
+                Data visualizations comparing survival rates and clinical outcomes for pCCA and iCCA after transplantation.
+              </p>
+              <span className="text-accent font-semibold">Learn more →</span>
+            </Link>
             <Link href="/sure-lt" className="medical-card hover:shadow-lg cursor-pointer">
               <h3 className="text-2xl font-bold text-foreground mb-3">SURE-LT Protocol</h3>
               <p className="text-secondary mb-4">
