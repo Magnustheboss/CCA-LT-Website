@@ -148,10 +148,38 @@ export default function OsloTrials() {
                 <p className="text-secondary">5 patients enrolled in TESLA 1 with active recruitment ongoing</p>
               </div>
 
+              <div className="bg-blue-50 rounded-lg border border-blue-300 p-8">
+                <h4 className="text-xl font-bold text-foreground mb-4">Early Results (Published February 2025)</h4>
+                <p className="text-secondary leading-relaxed mb-4">
+                  <strong>Publication:</strong> Yaqub S, et al. Liver transplantation for locally advanced non-resectable intrahepatic cholangiocarcinoma treated with neoadjuvant therapy: early results from the TESLA trial. British Journal of Surgery. 2025;112(3):znaf054.
+                </p>
+                <div className="space-y-3">
+                  <div className="bg-white rounded p-4 border-l-4 border-accent">
+                    <p className="text-secondary font-semibold mb-2">Patient Demographics (n=5)</p>
+                    <ul className="text-secondary text-sm space-y-1">
+                      <li>Median age: 45 years (range 28-62)</li>
+                      <li>60% female, 40% male</li>
+                      <li>Median tumor diameter: 11.5 cm</li>
+                      <li>Median time from diagnosis to LT: 26 months</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white rounded p-4 border-l-4 border-accent">
+                    <p className="text-secondary font-semibold mb-2">Post-Transplant Outcomes</p>
+                    <ul className="text-secondary text-sm space-y-1">
+                      <li>Median follow-up: 15 months (range 10-55)</li>
+                      <li>Recurrence rate: 40% (2 of 5 patients)</li>
+                      <li>All 5 patients alive at last follow-up</li>
+                      <li>Perioperative mortality: 0%</li>
+                      <li>R0 resection achieved in all cases</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
               <div className="bg-white rounded-lg border border-gray-200 p-8">
                 <h4 className="text-xl font-bold text-foreground mb-4">Expected Outcomes</h4>
                 <p className="text-secondary leading-relaxed">
-                  TESLA 1 aims to demonstrate that carefully selected patients with non-resectable iCCA can achieve 5-year overall survival exceeding 50% through liver transplantation, compared to historical median survival of 12 months with standard systemic therapy.
+                  TESLA 1 aims to demonstrate that carefully selected patients with non-resectable iCCA can achieve 5-year overall survival exceeding 50% through liver transplantation, compared to historical median survival of 12 months with standard systemic therapy. Early results support the feasibility and safety of this approach.
                 </p>
               </div>
             </TabsContent>

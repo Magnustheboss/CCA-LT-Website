@@ -138,10 +138,21 @@ export default function IntrahepaticCCA() {
 
             <h3 className="text-2xl font-bold text-foreground mb-4">Key Clinical Trials</h3>
             <div className="space-y-4">
-              <div className="medical-card">
-                <h3 className="text-xl font-bold text-foreground mb-2">TESLA Trial</h3>
-                <p className="text-secondary">
+              <div className="medical-card bg-blue-50 border-l-4 border-accent">
+                <h3 className="text-xl font-bold text-foreground mb-2">TESLA Trial - Early Results (February 2025)</h3>
+                <p className="text-secondary mb-3">
                   A prospective multicenter trial evaluating LT in selected iCCA patients, incorporating biology-first selection and response-based criteria for transplant candidacy.
+                </p>
+                <p className="text-secondary font-semibold mb-2">Early Results (n=5):</p>
+                <ul className="text-secondary text-sm space-y-1 mb-3">
+                  <li>All 5 patients alive at median 15-month follow-up</li>
+                  <li>Perioperative mortality: 0%</li>
+                  <li>R0 resection in all cases</li>
+                  <li>Recurrence rate: 40% (2 of 5 patients)</li>
+                  <li>KRAS mutations in 2, FGR2 rearrangement in 1 patient</li>
+                </ul>
+                <p className="text-secondary text-xs italic">
+                  Yaqub S, et al. British Journal of Surgery. 2025;112(3):znaf054.
                 </p>
               </div>
               <div className="medical-card">
