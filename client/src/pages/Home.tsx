@@ -234,7 +234,7 @@ export default function Home() {
             <div>
               <h4 className="font-bold text-foreground mb-4">Affiliations</h4>
               <p className="text-secondary text-sm">
-                Oslo University Hospital, University of Oslo, Mayo Clinic, Fondazione IRCCS Istituto Nazionale Tumori
+                Oslo University Hospital, University of Oslo
               </p>
             </div>
           </div>
