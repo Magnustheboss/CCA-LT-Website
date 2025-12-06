@@ -7,6 +7,7 @@ import IntrahepaticCCA from "@/pages/IntrahepaticCCA";
 import Outcomes from "@/pages/Outcomes";
 import SureLT from "@/pages/SureLT";
 import FutureDirections from "@/pages/FutureDirections";
+import References from "@/pages/References";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -21,6 +22,7 @@ function Router() {
       <Route path={"/outcomes"} component={Outcomes} />
       <Route path={"/sure-lt"} component={SureLT} />
       <Route path={"/future"} component={FutureDirections} />
+      <Route path={"/references"} component={References} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

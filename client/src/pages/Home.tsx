@@ -166,7 +166,14 @@ export default function Home() {
             <Link href="/future" className="medical-card hover:shadow-lg cursor-pointer">
               <h3 className="text-2xl font-bold text-foreground mb-3">Future Directions</h3>
               <p className="text-secondary mb-4">
-                Molecular profiling, biomarkers, and emerging technologies shaping the future of CCA transplantation.
+                Emerging molecular profiling, biomarkers, and therapeutic innovations shaping the future of CCA transplantation.
+              </p>
+              <span className="text-accent font-semibold">Learn more →</span>
+            </Link>
+            <Link href="/references" className="medical-card hover:shadow-lg cursor-pointer">
+              <h3 className="text-2xl font-bold text-foreground mb-3">References</h3>
+              <p className="text-secondary mb-4">
+                Comprehensive bibliography of all citations organized by topic for easy reference and further reading.
               </p>
               <span className="text-accent font-semibold">Learn more →</span>
             </Link>
