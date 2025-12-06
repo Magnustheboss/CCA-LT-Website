@@ -168,7 +168,7 @@ export default function SearchResults() {
             <div>
               <h4 className="font-bold text-foreground mb-4">Key Authors</h4>
               <p className="text-secondary text-sm">
-                Sheraz Yaqub, Tor Magnus Smedman, Svein Dueland, Julie Heimbach, Vincenzo Mazzaferro, Pål-Dag Line
+                Sheraz Yaqub, Tor Magnus Smedman, Svein Dueland, Pål-Dag Line
               </p>
             </div>
             <div>
