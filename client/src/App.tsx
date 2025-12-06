@@ -8,6 +8,7 @@ import Outcomes from "@/pages/Outcomes";
 import SureLT from "@/pages/SureLT";
 import FutureDirections from "@/pages/FutureDirections";
 import References from "@/pages/References";
+import SearchResults from "@/pages/SearchResults";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -23,6 +24,7 @@ function Router() {
       <Route path={"/sure-lt"} component={SureLT} />
       <Route path={"/future"} component={FutureDirections} />
       <Route path={"/references"} component={References} />
+      <Route path="/search" component={SearchResults} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

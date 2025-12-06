@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import { SearchBar } from "@/components/SearchBar";
 
 export default function Home() {
   return (
@@ -8,12 +9,15 @@ export default function Home() {
       <nav className="sticky top-0 bg-white border-b border-gray-200 shadow-sm z-50">
         <div className="container flex items-center justify-between py-4">
           <h1 className="text-2xl font-bold text-foreground">CCA-LT</h1>
-          <div className="flex gap-8">
-            <Link href="/" className="nav-link active">Home</Link>
-            <Link href="/perihilar" className="nav-link">Perihilar CCA</Link>
-            <Link href="/intrahepatic" className="nav-link">Intrahepatic CCA</Link>
-            <Link href="/sure-lt" className="nav-link">SURE-LT Protocol</Link>
-            <Link href="/future" className="nav-link">Future Directions</Link>
+          <div className="flex gap-6 items-center">
+            <div className="flex gap-8">
+              <Link href="/" className="nav-link active">Home</Link>
+              <Link href="/perihilar" className="nav-link">Perihilar CCA</Link>
+              <Link href="/intrahepatic" className="nav-link">Intrahepatic CCA</Link>
+              <Link href="/sure-lt" className="nav-link">SURE-LT Protocol</Link>
+              <Link href="/future" className="nav-link">Future Directions</Link>
+            </div>
+            <SearchBar />
           </div>
         </div>
       </nav>
